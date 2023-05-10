@@ -1,4 +1,4 @@
-# Добавлена возможность формирования отчёта в Google Sheets для [![Приложение QRKot](https://github.com/kaspeya/cat_charity_fund)]
+# Добавлена возможность формирования отчёта в Google Sheets для [Приложение QRKot](https://github.com/kaspeya/cat_charity_fund)
 [![FastAPI](https://img.shields.io/badge/-FastAPI-464646?style=flat&logo=FastAPI&logoColor=ffffff&color=043A6B)](https://fastapi.tiangolo.com/)
 [![Pydantic](https://img.shields.io/badge/-Pydantic-464646?style=flat&logo=Pydantic&logoColor=ffffff&color=043A6B)](https://docs.pydantic.dev/)
 [![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-464646?style=flat&logo=SQLAlchemy%20REST%20Framework&logoColor=ffffff&color=043A6B)](https://www.sqlalchemy.org/)
