@@ -29,9 +29,9 @@ async def get_report(
             session=session
         )
     print(charity_projects)
-    spreadsheetid = await spreadsheets_create(wrapper_services)
-    await set_user_permissions(spreadsheetid, wrapper_services)
-    await spreadsheets_update_value(spreadsheetid,
+    spreadsheet_id = await spreadsheets_create(wrapper_services)
+    await set_user_permissions(spreadsheet_id, wrapper_services)
+    await spreadsheets_update_value(spreadsheet_id,
                                     charity_projects,
                                     wrapper_services)
-    return {'url': f'https://docs.google.com/spreadsheets/d/{spreadsheetid}'}
+    return {'url': f'https://docs.google.com/spreadsheets/d/{spreadsheet_id}'}
